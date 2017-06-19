@@ -1,7 +1,8 @@
-jQuery(document).ready(function(){
+(function($, window, document, undefined) {
+    'use strict';
 
     // init cubeportfolio
-    jQuery('#js-grid-juicy-projects').cubeportfolio({
+    $('#js-grid-juicy-projects').cubeportfolio({
         filters: '#js-filters-juicy-projects',
         loadMore: '#js-loadMore-juicy-projects',
         loadMoreAction: 'click',
@@ -62,5 +63,4 @@ jQuery(document).ready(function(){
                 });
         },
     });
-    console.log('loaded from portfolio-settings.js');
-});
+})(jQuery, window, document);
