@@ -27,3 +27,14 @@ nav.navbar {
 .portfolio-container {
     margin-top: 76px;
 }
+/* colors */
+.title-row h2 {
+	color: #444;
+}
+.cbp-l-filters-button .cbp-filter-item.cbp-filter-item-active {
+	background-color: #444;
+	border-color: #444;
+}
+.cbp-caption-activeWrap {
+	background-color: #444;	
+}
